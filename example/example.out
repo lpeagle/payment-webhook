@@ -1,0 +1,20 @@
+npm start
+
+> pay-service-demo@1.0.0 start
+> node index.js
+
+App listening on port 8080
+trxNotify: {"live":"false","notificationItems":[{"NotificationRequestItem":{"amount":{"currency":"USD","value":22500},"eventCode":"AUTHORISATION","eventDate":"2023-08-18 18:59:59+02:00","merchantAccountCode":"DMPR","merchantReference":"DMPR|08E0C235-DF21-42DC-8623","operations":["CANCEL","CAPTURE","REFUND"],"paymentMethod":"visa","pspReference":"DSFD6767SDSD","reason":"891214:1000:06/2028","success":"true"}}]}
+notifyItem: {"NotificationRequestItem":{"amount":{"currency":"USD","value":22500},"eventCode":"AUTHORISATION","eventDate":"2023-08-18 18:59:59+02:00","merchantAccountCode":"DMPR","merchantReference":"DMPR|08E0C235-DF21-42DC-8623","operations":["CANCEL","CAPTURE","REFUND"],"paymentMethod":"visa","pspReference":"DSFD6767SDSD","reason":"891214:1000:06/2028","success":"true"}}
+[ 'DSFD6767SDSD', '225' ]
+Report processed. Transactions status:
+ [
+  Transaction {
+    id: 'DSFD6767SDSD',
+    transactiontype: [ 'CANCEL', 'CAPTURE', 'REFUND' ],
+    date: '2023-08-18 18:59:59+02:00',
+    amount: 225,
+    merchant: 'DMPR',
+    reconcileStatus: 'Reconciled'
+  }
+]

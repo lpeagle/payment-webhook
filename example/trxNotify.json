@@ -1,0 +1,26 @@
+{
+  "live": "false",
+  "notificationItems": [
+    {
+      "NotificationRequestItem": {
+        "amount": {
+          "currency": "USD",
+          "value": 22500
+        },
+        "eventCode": "AUTHORISATION",
+        "eventDate": "2023-08-18 18:59:59+02:00",
+        "merchantAccountCode": "DMPR",
+        "merchantReference": "DMPR|08E0C235-DF21-42DC-8623",
+        "operations": [
+          "CANCEL",
+          "CAPTURE",
+          "REFUND"
+        ],
+        "paymentMethod": "visa",
+        "pspReference": "DSFD6767SDSD",
+        "reason": "891214:1000:06/2028",
+        "success": "true"
+      }
+    }
+  ]
+}
